@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    char nome[127];
+    char nome[128];
     int altura;
     int peso;
     int idade;
     puts("Digite seu nome: ");
     fflush(stdin);
-    fgets(nome, 127, stdin);
+    fgets(nome, 128, stdin);
     puts("Digite sua altura (em cm): ");
     fflush(stdin);
     scanf("%d", &altura);
